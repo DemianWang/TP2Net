@@ -106,7 +106,6 @@ def loaddataset(data_file):
     return X_data,Y_label
 
 
-
 '''  MSEloss for training  '''
 class MSEloss_mod(nn.Module):
     def __init__(self):
